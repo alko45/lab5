@@ -1,0 +1,39 @@
+function Level(plan){
+	this.width = plan[0].length;
+	this.height = plan.length;
+	this.grid = [];
+
+	// loop through each row in plan, creating an array in grid
+	for (var y=0; y<this.height; y++){
+	var line = play[y], gridLine = [];
+
+	//loop through each array element in the iner array for the tpe of tile
+	for ( var x=0; x<this.width; x++)
+	{
+
+	var ch = line[x], fieldType = null;
+	if (ch =='x')
+	{
+	fieldType ='wall';
+
+	}
+	else if (ch =='!')
+	}
+	fieldType = 'lava'{
+
+	}	
+function DOMDisplay(parent,level)
+function runLevel(level){
+
+
+var display = new 	DOMDisplay(document.body,level);	
+}
+
+function runGame(plans){
+function startLevel(n){
+	//create an new level using the nth element in array plans
+	runLevel(new Level(plan[n]));
+}
+	startLeel(0);
+
+}
